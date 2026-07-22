@@ -1,2 +1,12 @@
 # graphify knowledge-graph output (generated artifact, not part of the site)
 graphify-out/
+
+# local-only files — not part of the deployed site
+landscapesbylindy-deploy.zip
+STRIPE_SETUP.md
+README.md
+css/
+js/
+WhatsApp Image*.jpeg
+signature.png
+serve.ps1
