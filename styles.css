@@ -3,7 +3,6 @@
    Warm ivory · ink · gold — enquiry-led, gallery standard
    ========================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -15,7 +14,9 @@
     --ink: #26201B;
     --ink-soft: #57493F;
     --taupe: #8B7355;
+    --taupe-text: #887053;  /* AA text-safe taupe */
     --gold: #B8935F;
+    --gold-text: #906F40;   /* AA text-safe gold */
     --gold-light: #D4A574;
     --ivory: #FAF8F5;
     --cream: #F3EFE9;
@@ -76,7 +77,7 @@ h3 { font-size: 1.5rem; }
     letter-spacing: 0.42em;
     text-indent: 0.42em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--gold-text);
     display: block;
     margin-bottom: 1.2rem;
 }
@@ -171,7 +172,7 @@ textarea:focus-visible {
     letter-spacing: 0.3em;
     text-indent: 0.3em;
     text-transform: uppercase;
-    color: var(--taupe);
+    color: var(--taupe-text);
     text-decoration: none;
     border-bottom: 1px solid var(--gold);
     padding: 4px 2px 7px;
@@ -241,7 +242,7 @@ textarea:focus-visible {
     font-weight: 400;
     letter-spacing: 0.4em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 .nav-links {
@@ -276,7 +277,7 @@ textarea:focus-visible {
 }
 
 .nav-links a:hover {
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 .nav-links a:hover::after,
@@ -384,11 +385,11 @@ textarea:focus-visible {
 
 .hero.hero--light h1 { color: var(--ink); }
 
-.hero.hero--light .eyebrow { color: var(--gold); }
+.hero.hero--light .eyebrow { color: var(--gold-text); }
 
 .hero.hero--light p { color: var(--ink-soft); }
 
-.hero.hero--light .hero-scroll { color: var(--taupe); }
+.hero.hero--light .hero-scroll { color: var(--taupe-text); }
 
 .hero-signature {
     display: block;
@@ -516,7 +517,7 @@ section {
     font-family: var(--serif);
     font-style: italic;
     font-size: 0.95rem;
-    color: var(--gold);
+    color: var(--gold-text);
     display: block;
     margin-bottom: 0.4rem;
 }
@@ -530,7 +531,7 @@ section {
     font-size: 0.72rem;
     letter-spacing: 0.24em;
     text-transform: uppercase;
-    color: var(--taupe);
+    color: var(--taupe-text);
     margin-bottom: 0.8rem;
 }
 
@@ -577,7 +578,7 @@ section {
     letter-spacing: 0.42em;
     text-indent: 0.42em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 /* ---------- About preview ---------- */
@@ -601,7 +602,7 @@ section {
     font-family: var(--serif);
     font-style: italic;
     font-size: 1.2rem;
-    color: var(--taupe);
+    color: var(--taupe-text);
 }
 
 .about-text .btn { margin-top: 1.2rem; }
@@ -761,7 +762,7 @@ section {
 
 .price-note {
     font-size: 0.86rem;
-    color: var(--taupe);
+    color: var(--taupe-text);
     margin-bottom: 2rem;
 }
 
@@ -775,7 +776,7 @@ section {
 
 .enquire-panel .enquire-note {
     font-size: 0.9rem;
-    color: var(--taupe);
+    color: var(--taupe-text);
     margin-bottom: 1.2rem;
 }
 
@@ -802,12 +803,12 @@ section {
     font-size: 0.74rem;
     letter-spacing: 0.24em;
     text-transform: uppercase;
-    color: var(--taupe);
+    color: var(--taupe-text);
     text-decoration: none;
     transition: color 0.35s var(--ease);
 }
 
-.back-link:hover { color: var(--gold); }
+.back-link:hover { color: var(--gold-text); }
 
 /* ---------- About page ---------- */
 
@@ -837,7 +838,7 @@ section {
     font-family: var(--serif);
     font-style: italic;
     font-size: 1.18rem;
-    color: var(--taupe);
+    color: var(--taupe-text);
     border-left: 2px solid var(--gold);
     padding-left: 1.5rem;
     margin-top: 2.6rem;
@@ -889,7 +890,7 @@ section {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: var(--gold);
+    border-color: var(--gold-text);
 }
 
 .form-group textarea {
@@ -909,12 +910,12 @@ section {
 }
 
 .contact-detail a {
-    color: var(--taupe);
+    color: var(--taupe-text);
     text-decoration: none;
     transition: color 0.35s var(--ease);
 }
 
-.contact-detail a:hover { color: var(--gold); }
+.contact-detail a:hover { color: var(--gold-text); }
 
 /* ---------- Footer ---------- */
 
